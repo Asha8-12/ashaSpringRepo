@@ -1,0 +1,140 @@
+/* Login.css */
+
+.auth-form {
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+    height: 97vh; /* Full height of the viewport */
+    background-color: #f2f2f2; /* Optional: Adds a light background for better visual centering */
+    padding: 10px; /* Add some padding to ensure the form doesn't touch the edges of smaller screens */
+}
+
+.auth-form form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Use full width available */
+    max-width: 320px; /* Constrain the form to a maximum width */
+    height: 405.99px;
+}
+
+.auth-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align child items to the left */
+    width: 100%; /* Ensure the container uses the full width */
+}
+
+.auth-input-group {
+    width: 100%;
+    margin-bottom: 16px; /* Space between input groups */
+    text-align: left; /* Align contents of the group to the left */
+}
+
+.auth-input-group label {
+    margin-bottom: 8px;
+    display: block;
+    text-align: left; /* Align label text to the left */
+}
+
+.auth-input {
+    padding: 10px;
+    margin: 8px 0; /* Margin between input boxes */
+    display: block; /* Ensure the inputs are block elements */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: left; /* Ensure input text starts from the left */
+    /* Removed width: calc(100% - 20px); to use specific widths for each input */
+}
+
+/* Adding specific styles for username input */
+.auth-input.user {
+    height: 40.9px; /* Increased height for username input */
+    padding: 15px; /* Increased padding for larger input */
+    font-size: 16px; /* Larger font size for better readability */
+    width: 99.8%; /* Reduced width */
+}
+
+/* Adding specific styles for password input */
+.auth-input.password {
+    height: 40.9px; /* Increased height for password input */
+    padding: 12px; /* Increased padding for larger input */
+    font-size: 14px; /* Font size adjustment */
+    width: 99.8%; /* Reduced width */
+}
+
+.auth-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 360%;
+    border-radius: 4px;
+    text-align: center; /* Center text within the button */
+    font-size: 20px;
+    
+}
+
+.auth-button:hover {
+    opacity: 0.8;
+}
+
+.auth-checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.auth-checkbox-container label {
+    text-align: left; /* Align label text to the left */
+}
+
+.auth-link-password, .auth-link-create {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.auth-link-password:hover, .auth-link-create:hover {
+    text-decoration: underline;
+}
+
+.auth-link-create {
+    float: right; /* Align the 'Create your Account' link to the right */
+}
+
+.auth-password-reset {
+    display: block;
+    margin-top: 16px;
+    text-align: left;
+}
+
+.auth-title {
+    font-size: 30px;
+    text-align: center; /* Center the title text */
+    width: 100%;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 600px) {
+    .auth-form {
+        padding: 20px;
+    }
+
+    .auth-form form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .auth-input.user, .auth-input.password {
+        width: 100%; /* Adjust width to full available space on small screens */
+    }
+}
+.auth-title{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}

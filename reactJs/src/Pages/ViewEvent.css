@@ -1,0 +1,57 @@
+/* Container styling */
+.event-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+/* Header styling */
+.event-details-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Event info styling */
+.event-details-container .event-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Bold labels */
+.event-details-container .event-info p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Back button styling */
+.event-details-container .btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Hover effect for the button */
+.event-details-container .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}

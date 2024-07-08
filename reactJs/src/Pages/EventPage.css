@@ -1,0 +1,74 @@
+.event-table-container {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-table-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-event {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.add-event:hover {
+  background-color: #218838;
+}
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.event-table th, .event-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.event-table th {
+  background-color: #f2f2f2;
+}
+
+.event-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.event-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.event-table button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.event-table button:hover {
+  background-color: #0056b3;
+}
+
+.event-table button:last-child {
+  background-color: #dc3545;
+}
+
+.event-table button:last-child:hover {
+  background-color: #c82333;
+}

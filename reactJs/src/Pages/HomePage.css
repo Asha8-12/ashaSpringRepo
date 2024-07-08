@@ -1,0 +1,26 @@
+.homepage {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url('./../asset/images/university.jpg');
+   /* Set your background image here */
+  background-size: cover; /* This makes sure the image covers the whole background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Full height */
+  color: white; /* Ensures text is readable against the background */
+}
+
+.homepage-header {
+  background-color: rgba(40, 44, 52, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  color: white;
+}
+
+.homepage-footer {
+  background-color: rgba(40, 44, 52, 0.8);
+  padding: 10px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
